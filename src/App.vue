@@ -1,13 +1,13 @@
 <template>
   <div id="gradient">
     <h1 style="color:aliceblue">Color Generator</h1>
-    <input type="color" @input="setGradient()" name="color1" value="#00ff00" class="color1" />
-    <input type="color" @input="setGradient()" name="color2" value="#ff00ff" class="color2" />
+    <input type="color" @input="setGradient" name="color1" value="#00ff00" class="color1" />
+    <input type="color" @input="setGradient" name="color2" value="#ff00ff" class="color2" />
     <br />
-    <button @click="changeToLeft()">Change to left</button>
-    <button @click="changeToRight()">Change to right</button>
-    <button @click="changeToBottom()">Change to bottom</button>
-    <button @click="changeToTop()">Change to top</button>
+    <button @click="changeToLeft">Change to left</button>
+    <button @click="changeToRight">Change to right</button>
+    <button @click="changeToBottom">Change to bottom</button>
+    <button @click="changeToTop">Change to top</button>
 
     <h5 style="color:aliceblue">Current CSS color background</h5>
     <p id="background"></p>
