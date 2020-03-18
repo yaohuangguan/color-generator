@@ -10,7 +10,7 @@
     <button class="direction-button" @click="changeToTop">Change to top</button>
 
     <h5 style="color:aliceblue">Current CSS color background</h5>
-    <span style="display:none;color:#0ee234" class="copy">CSS Copied!</span>
+    <span style="display:none;color:#ffffff" class="copy">CSS Copied!</span>
     <p id="background" class="copy-text" @click="handleCopy"></p>
     <p id="left" class="copy-text" @click="handleCopy">Input Hexcode:</p>
     <p id="right" class="copy-text" @click="handleCopy">Input Hexcode:</p>
